@@ -1,5 +1,5 @@
-import { useState, useEffect, useRef, ReactNode, CSSProperties } from "react";
-
+import { useState, useEffect, useRef } from "react";
+import type { ReactNode, CSSProperties } from "react";
 // ─── TYPES ────────────────────────────────────────────────
 interface User { name: string; email: string; }
 interface Plan { name: string; price: string; period: string; emoji: string; color: string; features: string[]; cta: string; popular?: boolean; }
